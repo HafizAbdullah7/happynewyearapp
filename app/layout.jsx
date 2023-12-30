@@ -10,7 +10,8 @@ export const metadata = {
   
   icon: "/assets/images/hpy.svg",
   keywords:"newyear, happy, goals, 2024",
-  author: "Hafiz Abdullah"
+  author: "Hafiz Abdullah",
+  image: "/assets/images/hpy.svg"
 };
 
 const RootLayout = ({ children }) => (
@@ -20,6 +21,7 @@ const RootLayout = ({ children }) => (
      <meta name="keywords" content={metadata.keywords}/>
      <meta name="author" content={metadata.author} />
      <meta name="description" content={metadata.description} />
+     <meta property="og:image" content={metadata.image}/>
      </head>
     
     <body>
