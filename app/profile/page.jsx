@@ -48,6 +48,7 @@ const MyProfile = () => {
   };
 
   return (
+    
     <Profile
       name='My'
       desc='Welcome to your personalized profile page. Share your new year thoughts and inspire others with the power of your imagination'

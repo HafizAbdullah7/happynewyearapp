@@ -5,7 +5,7 @@ import Provider from "@components/Provider";
 
 export const metadata = {
   
-  title: "Happily coming 2024",
+  title: "Happy new year 2024",
   description: "Share New year Goals ",
   
   icon: "/assets/images/hpy.svg",
